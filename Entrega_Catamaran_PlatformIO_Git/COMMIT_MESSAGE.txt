@@ -1,0 +1,8 @@
+feat(catamaran): documentar firmware PlatformIO para dos ESC y tolva PS4/XBee
+
+- Incluir maestro Bluepad32 con UART nativa ESP-IDF a 115200 bps.
+- Incluir esclavo Arduino/PlatformIO con dos ESC y servo de tolva.
+- Conservar trama de cuatro bytes con bit 0 para apertura de tolva.
+- Fijar intervalo de transmisión a 50 ms para mejorar respuesta.
+- Documentar configuración XBee, wiring, problemas resueltos y pendientes.
+- Añadir guía de instalación, carga y monitores para otra laptop Windows.
